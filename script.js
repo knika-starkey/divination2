@@ -91,18 +91,18 @@ let author = prompt("Який автор? (Симоненко, Костенко,
 let moreDivintion = true;
 while (moreDivintion) {
   switch (author) {
-    case (author = "Симоненко"):
+    case "Симоненко":
       alert(
         poems.simonenko[Math.floor(Math.random() * poems.simonenko.length)]
       );
       break;
-    case (author = "Костенко"):
+    case "Костенко":
       alert(poems.kostenko[Math.floor(Math.random() * poems.kostenko.length)]);
       break;
-    case (author = "Семенко"):
+    case "Семенко":
       alert(poems.semenko[Math.floor(Math.random() * poems.semenko.length)]);
       break;
-    case (author = "Моррісон"):
+    case "Моррісон":
       alert(poems.morrison[Math.floor(Math.random() * poems.morrison.length)]);
       break;
     default:
